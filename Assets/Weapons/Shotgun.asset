@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7f20f4d5a4166b42a4b5828d0d936ac, type: 3}
+  m_Name: Shotgun
+  m_EditorClassIdentifier: 
+  weaponName: Shotgun
+  cartridgesAmount: 12
+  cartridgeBullets: 10
+  damage: 40
+  shootingRate: 0.6
+  scope: 4
+  rechargeTime: 1.5
+  type: 2
+  shootSound: {fileID: 8300000, guid: 50cefc20cc9eeb64085e863383a3f54e, type: 3}
+  reload1: {fileID: 8300000, guid: b5fad1783656ada4aa808dd67b932485, type: 3}
+  reload2: {fileID: 8300000, guid: c657f75c7da19de45a0c840ec3da3b88, type: 3}
